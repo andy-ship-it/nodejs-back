@@ -3,9 +3,10 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Bienvenidos a SENATI!');
+    res.send('Hola a SENATI!');
 });
 
-app.listen(3000, () => {
-    console.log('Server running on port 3000');
+const port =3000;
+app.listen(port, () => {
+    console.log('Server running on port', port);
 });
