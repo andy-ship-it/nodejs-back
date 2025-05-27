@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
- feature/NSTI-9
     "rootDir": "./src",
-
-    "rootDir": "src",
- develop
     "lib": ["ESNext"],
     "target": "ESNext",
     "moduleResolution": "NodeNext",
@@ -17,10 +13,5 @@
     "sourceMap": true,
     "declaration": true
   },
- feature/NSTI-9
   "include": ["src/**/*.ts"]
 }
-
-    "include": ["src/**/*.ts"]
-}
- develop
